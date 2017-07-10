@@ -1,0 +1,82 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 900px;
+	height: 30px;
+	background: grey;
+	margin: 0 auto;
+}
+.member{
+	width: 90px;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+	background: url(img/down.png) 70px center no-repeat;
+	background-size: 10px 10px;
+
+	cursor: pointer;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+	height:120px;
+	width: 90px;
+	background-color: orange;
+	border:1px solid #999;
+	display: none;
+	border-top: none;
+}
+
+header ul li{
+	list-style-type: none;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 3px
+
+}
+
+ul li a{
+	display: block;
+}
+
+ul li a:hover{
+	display: block;
+	background-color: yellow
+}
+
+/*img:hover{
+	transform: rotate(180deg);
+	transition: transform .3s 
+}*/
+
+header .login{
+	float: right;
+	width: 50px;
+	height:30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+#login{
+	display: none;
+	width: 350px;
+	height: 350px;
+	border:1px solid #eee;
+	position: relative;
+	cursor:  move;
+}
+
+#login h2{
+	text-align: center;
+}
+#close{
+	cursor:pointer;
+	color: #ccc;
+}
